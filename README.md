@@ -2,11 +2,13 @@
 
 `react-native-unity-ads-module` enables you to show Unity ADS in your React Native based app using Unity Ads SDK 2.0 ([Android](https://github.com/Unity-Technologies/unity-ads-android), [iOS](https://github.com/Unity-Technologies/unity-ads-ios)).
 
-# Author
+## Author
 
 `react-native-unity-ads-module` is Forked from [`react-native-unity-ads`](https://github.com/th0th/react-native-unity-ads) created by [Gökhan Sarı](meisth0th@gmail.com). 
 
+
 ## Installation
+
 
 ### Quick
 
