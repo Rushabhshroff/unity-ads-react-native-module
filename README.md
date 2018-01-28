@@ -43,7 +43,7 @@ dependencies {
 
 ```java
 // Add after other com.facebook imports
-import com.rnunityads.RNUnityAdsPackage;
+import com.unityads.RNUnityAdsPackage;
 
 ...
 @Override
