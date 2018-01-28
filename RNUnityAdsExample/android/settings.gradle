@@ -1,5 +1,0 @@
-rootProject.name = 'RNUnityAdsExample'
-
-include ':app'
-include ':react-native-unity-ads'
-project(':react-native-unity-ads').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-unity-ads/android')

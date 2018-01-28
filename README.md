@@ -1,8 +1,10 @@
-# react-native-unity-ads
+# react-native-unity-ads-module
 
-`react-native-unity-ads` enables you to show Unity ADS in your React Native based app using Unity Ads SDK 2.0 ([Android](https://github.com/Unity-Technologies/unity-ads-android), [iOS](https://github.com/Unity-Technologies/unity-ads-ios)).
+`react-native-unity-ads-module` enables you to show Unity ADS in your React Native based app using Unity Ads SDK 2.0 ([Android](https://github.com/Unity-Technologies/unity-ads-android), [iOS](https://github.com/Unity-Technologies/unity-ads-ios)).
 
-**Note:** The library is Android-only for now. PRs for iOS are welcome.
+# Author
+
+`react-native-unity-ads-module` is Forked from [`react-native-unity-ads`](https://github.com/th0th/react-native-unity-ads) created by [Gökhan Sarı](meisth0th@gmail.com). 
 
 ## Installation
 
@@ -11,7 +13,7 @@
 For quick installation, you can install the npm package and then let react-native do the hard work.
 
 ```sh
-$ npm install --save react-native-unity-ads
+$ npm install --save react-native-unity-ads-module
 $ react-native link
 ```
 
@@ -22,15 +24,15 @@ $ react-native link
 ##### android/settings.gradle
 
 ```
-include ':app', ':react-native-unity-ads'
-project(':react-native-unity-ads').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-unity-ads/android')
+include ':app', ':react-native-unity-ads-module'
+project(':react-native-unity-ads-module').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-unity-ads-module/android')
 ```
 
 ##### android/app/build.gradle
 
 ```
 dependencies {
-  compile project(':react-native-unity-ads')
+  compile project(':react-native-unity-ads-module')
   ...
 }
 ```
@@ -39,7 +41,7 @@ dependencies {
 
 ```java
 // Add after other com.facebook imports
-import me.th0th.rnunityads.RNUnityAdsPackage;
+import com.rnunityads.RNUnityAdsPackage;
 
 ...
 @Override
@@ -47,7 +49,7 @@ protected List<ReactPackage> getPackages() {
   return Arrays.<ReactPackage>asList(
     new MainReactPackage(),
     // The part that comes from your other native modules goes here.
-    new RNUnityAdsPackage()
+    new RNUnityAdsModulePackage()
   );
 }
 ...
@@ -55,8 +57,7 @@ protected List<ReactPackage> getPackages() {
 
 ## Usage
 
-Hopefully, a nice API documentation will be available soon, but until then, you can see the [example application RNUnityAdsExample](https://github.com/th0th/react-native-unity-ads/blob/master/RNUnityAdsExample).
-
+Hopefully, a nice API documentation will be available soon, but until then, you can see the [example application RNUnityAdsExample](https://github.com/Coco-77/ReactNativeUnityAdsExample.git).
 ## License
 
 This library is made available under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).

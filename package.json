@@ -1,20 +1,60 @@
 {
-  "name": "react-native-unity-ads",
-  "version": "1.0.3",
-  "description": "React Native module for displaying ads from Unity Ads.",
+  "_from": "react-native-unity-ads-module",
+  "_id": "react-native-unity-ads-module@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-lkoAQLbnVgXBJ6qiv5bkcsjkilpxnVfhWMKddva/eS34NvzQrgallvkDTXFUHWe4viTDEoBMdfiMPgFgona/Zg==",
+  "_location": "/react-native-unity-ads-module",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-unity-ads-module",
+    "name": "react-native-unity-ads-module",
+    "escapedName": "react-native-unity-ads-module",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-unity-ads-module/-/react-native-unity-ads-module-1.0.0.tgz",
+  "_shasum": "411cbb0ce09cd329e330d0aaa81b42396a3d9141",
+  "_spec": "react-native-unity-ads-module",
+  "_where": "/Users/Shared/ReactNative/RNUnityAdsExample",
+  "author": {
+    "name": "Gökhan Sarı",
+    "email": "me@th0th.me"
+  },
+  "bugs": {
+    "url": "https://github.com/Coco-77/react-native-unity-ads/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "小七不乖",
+      "email": "534257973@qq.com"
+    }
+  ],
+  "deprecated": false,
+  "description": "React Native Module for displaying ads from Unity Ads.",
+  "homepage": "https://github.com/Coco-77/react-native-unity-ads#readme",
+  "keywords": [
+    "react-native"
+  ],
+  "license": "Apache-2.0",
   "main": "index.js",
+  "name": "react-native-unity-ads-module",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Coco-77/react-native-unity-ads.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "react-native",
-    "unity-ads"
-  ],
-  "author": "Gökhan Sarı <me@th0th.me>",
-  "license": "Apache-2.0",
-  "repository" :
-  {
-    "type" : "git",
-    "url" : "git@github.com:th0th/react-native-unity-ads.git"
-  }
+  "version": "1.0.1"
 }
