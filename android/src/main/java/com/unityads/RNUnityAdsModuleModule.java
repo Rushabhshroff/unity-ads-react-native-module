@@ -1,13 +1,14 @@
 
 package com.unityads;
 
-import com.facebook.react.bridge.Arguments;
-import com.facebook.react.bridge.Callback;
+import android.view.View;
+import android.app.Activity;
+import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
+import com.facebook.react.bridge.ReactContext;
+import com.facebook.react.bridge.UiThreadUtil;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
-import com.facebook.react.bridge.WritableMap;
-import com.facebook.react.bridge.ReactContext;
 import com.unity3d.ads.IUnityAdsListener;
 import com.unity3d.ads.UnityAds;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
@@ -37,7 +38,7 @@ public class RNUnityAdsModuleModule extends ReactContextBaseJavaModule implement
 
   @ReactMethod
   public void initialize(String gameID) {
-    UnityAds.initialize(getCurrentActivity(), gameID, this, false);
+    UnityAds.initialize(getCurrentActivity(), gameID, this);
   }
 
   @ReactMethod
